@@ -1,0 +1,73 @@
+    /* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    margin: 0;
+    font-family: "Monaco";
+  }
+.top-wrapper {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://wallpaperaccess.com/full/112754.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+.main-content {
+    background-color: #082841;
+    background-size: auto;
+    height: 500px;
+    padding-bottom: 80px;
+    text-align: center;
+    
+
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+.container h1 {
+    padding-top: 100px;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* Change the position property to fixed, and top property to 0 */
+    position: fixed;
+    top:0;
+    
+    /* Change the z-index property to 10 */
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
