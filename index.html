@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 
 <body>
@@ -21,41 +22,70 @@
     </header>
     <div class="top-wrapper">
         <div class="container">
-            <h1>LAURENSIUS ADRIAN WIBOWO</h1>
-            <p>An ordinary universe dust called Human</p>
+            <div class="title">
+                <h1>LAURENSIUS ADRIAN WIBOWO</h1>
+                <p>An ordinary universe dust called Human</p>
+            </div>
+
         </div>
     </div>
     <div class="main-top">
-        <div class="profile">
-            <div class="photo-me"> 
-                <img src="./photos/IMG_20200414_223824_044.jpg">
-            </div>
-            <div class="about"><h1>Hello, I am <strong>Adrian</strong></h1>
-                <p> A Bachelor of Economics Management, who switched to be a Junior Back-End Developer and love to learn
-                    more about Database, Graphic Design, and all programming stuff </p></div>
+        <div class="container">
+            <row class="profile">
+                <col>
+                <div class="about">
+                    <h1>Hello, I am <strong>Adrian</strong></h1>
+                    <p> A Bachelor of Economics Management, who passionate about Graphic Design, Paint, Food, and Tech
+                        stuff
+                    </p>
+                    <p class="glints"> Recently I took a Back-end Developer Bootcamp at Glints Academy x Binar Academy
+                        for 3
+                        Months, learning how to make a RESTful API with NodeJs, PostgreSQL </p>
+                </div>
+                </col>
+                <col>
+                <img src="./photos/IMG_20200414_223824_044.jpg" class="photo-me">
+                </col>
+            </row>
         </div>
     </div>
     <div class="main-content">
-        <div class="about-kickin"> 
-            <h1>KICKIN</h1>
-            <p> Kickin is the application that will help you to <strong>Book</strong> and <strong>Manage</strong> Futsal Court easily</p>
-            <p class="kickin-tech"> Kickin is the latest Project that I made on Glints Academy, in here my role was as a Back-end Engineer on SCRUM Team. This  project built with <br>
-                <ul>
-                    <li><Strong>NodeJs</Strong> as a Server-Side Language</li>
-                    <li><strong>ExpressJs</strong> as a main framework</li>
-                    <li><strong>PostgreSQL</strong> as a database</li>
-                    <li><strong>Sequelize</strong> as a Object Relational Mapping tools</li>
-                    <li><strong>Google Oauth</strong> as a google sign in and register</li>
-                    <li><strong>Sendgrid</strong> as a mail notifier</li>
-                    <li><strong>Gitlab</strong> as a Version contol and CI/CD tools</li>
-                </ul>
-            </p>
+        <div class="container">
+            <row class="kickin">
+                <col>
+                <iframe width="615" height="345" src="https://www.youtube.com/embed/xPUlIbrMihI">
+                </iframe>
+                </col>
+                <col>
+                <div class="about-kickin">
+                    <h1>KICKIN</h1>
+                    <p> Kickin is the application that will help you to <strong>Book</strong> and <strong>Manage</strong>
+                        Futsal
+                        Court easily</p>
+                    <p class="kickin-tech"> Kickin is the latest Project that I made on Glints Academy, in here my role was
+                        as a
+                        Back-end Engineer on SCRUM Team. This project built with <br>
+                    <ul>
+                        <li><Strong>NodeJs</Strong> as a Server-Side Language<i class="fab fa-node-js"></i></li>
+                        <li><strong>ExpressJs</strong> as a main framework</li>
+                        <li><strong>PostgreSQL</strong> as a database</li>
+                        <li><strong>Sequelize</strong> as a Object Relational Mapping tools</li>
+                        <li><strong>Google Oauth</strong> as a google sign in and register</li>
+                        <li><strong>Sendgrid</strong> as a mail notifier</li>
+                        <li><strong>Gitlab</strong> as a Version contol and CI/CD tools<span class="fab fa-gitlab"></span>
+                        </li>
+                        <li><strong>Heroku</strong> as a web Hoster</li>
+                    </ul>
+                    </p>
+                </div>
+                </col>
+            </row>
         </div>
-       
-        <iframe width="600" height="345" src="https://www.youtube.com/embed/xPUlIbrMihI">
-        </iframe>
     </div>
-    <footer></footer>
+    <footer>
+        <div class="contact">
+            <a href="https://www.linkedin.com/in/ladrianwibowo/" class="linkedin"><strong>Linkedin</strong></a>
+        </div>
+    </footer>
 </body>
-
 </html>
