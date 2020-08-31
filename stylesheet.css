@@ -49,6 +49,9 @@ header {
   .about-me {
     margin-right: 16px;
   }
+  .project { 
+    margin-right: 16px;
+  }
 .top-wrapper {
     width: 100%;
     height: 650px;
@@ -71,13 +74,14 @@ header {
 }
 
 .photo-me{
- height: 250px;
- width: 250px;
+ 
+ max-height: 250px;
+ max-width: 250px;
  padding:50px 0 0 0;
 
 }
 .about {
-  width: 350px;
+  max-width: 350px;
   padding-top: 50px;
   color: white;
 
@@ -96,7 +100,7 @@ header {
 .main-content {
   width: 100%;
   background-color: teal;
-  min-height: 650px;
+  min-height: 400px;
 }
 .container {
     max-width: 1170px;
@@ -105,10 +109,10 @@ header {
     height: 100%;
   }
 .karep {
-    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 .kickin {
   display:flex;
@@ -117,17 +121,26 @@ header {
   height:100%;
   padding-bottom: 50px;
 }
+
+.fa-node-js {
+  margin-left: 10px;
+}
+.fa-google {
+  margin-left: 10px;
+}
+.fa-gitlab {
+  margin-left: 10px;
+}
+
 .about-kickin {
-  width: 350px;
+  max-width: 350px;
   margin-top: 50px;
   color: white;
   }
 .kickin-tech {
   padding-top: 20px;
 }
-.fab {
-  padding-left: 10px ;
-}
+
 ul{
   margin-left: 20px;
 }
@@ -138,38 +151,47 @@ iframe {
   height: 345px ;
 }
 footer {
-  height: 65px;
+  min-height: 75px;
   width: 100%;
   background-color: rgba(11, 68, 113, 1);
-  top:0;
-  z-index: 10;
+ 
+}
+.footer-top p{
+  padding-top: 10px;
+  color: white;
+  text-align: center;
 }
 .contact {
-  /* text-decoration: none; */
+  padding: 5px 0 5px 0;
   text-align: center;
-  /* height: 20px; */
-  padding-top: 20px;
+  align-items: center;
+  font-size: 40px ;
 }
 .linkedin {
-  width: 124px;
   color: white;
-  margin-right: 16px;
+  margin-right: 8px;
 }
 .email {
-  width: 124px;
   color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.github {
+  color: white;
+  margin-left: 8px;
 }
 
 @media (max-width:760px) {
   .top-wrapper{ 
-    height: 40%;
     color: rgb(58, 57, 57);
   }
   .profile {flex-direction: column-reverse;}
   .kickin {flex-direction: column;}
   .photo-profile {
-    text-align: center ;
-  }
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;  }
   .about {
     margin: 0 auto;
   }
