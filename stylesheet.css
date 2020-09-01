@@ -62,7 +62,7 @@ header {
     text-align: center;
   }
 .main-top {
-  min-height: 400px;
+  min-height: 300px;
   width: 100%;
   background-color: #082841;
 }
@@ -70,19 +70,19 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
 }
 
 .photo-me{
  
  max-height: 250px;
  max-width: 250px;
- padding:50px 0 0 0;
+ padding-top:80px ;
 
 }
 .about {
   max-width: 350px;
-  padding-top: 50px;
+  padding-top: 65px;
   color: white;
 
 }
@@ -119,7 +119,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height:100%;
-  padding-bottom: 50px;
+  padding-bottom: 65px;
 }
 
 .fa-node-js {
@@ -134,9 +134,10 @@ header {
 
 .about-kickin {
   max-width: 350px;
-  margin-top: 50px;
   color: white;
+  padding-top: 65px;
   }
+
 .kickin-tech {
   padding-top: 20px;
 }
@@ -145,7 +146,7 @@ ul{
   margin-left: 20px;
 }
 iframe {
-  margin: 50px 30px 0 0; 
+  margin: 65px 30px 0 0; 
   border: none;
   width: 615px; 
   height: 345px ;
@@ -181,6 +182,9 @@ footer {
   margin-left: 8px;
 }
 
+.kickin-link {
+  color:white
+}
 @media (max-width:760px) {
   .top-wrapper{ 
     color: rgb(58, 57, 57);
